@@ -14,7 +14,7 @@ namespace HelloWorld
             Console.WriteLine("What's your name?");
             input = Console.ReadLine();
 
-            Console.WriteLine("Hello World!" + input);
+            Console.WriteLine("Hello, " + input + "!");
             Console.ReadLine();
         }
     }
