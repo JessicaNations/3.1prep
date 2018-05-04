@@ -1,20 +1,18 @@
 /* Input/output: Modify your HelloWorld program to 
 prompt the user for their name, and greet them by name.  */
-using System;                                              
-using System.Collections.Generic;                              
-using System.Text;
-namespace HelloWorld
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace myApp
 {
     class Program
     {
-        public static void Main(string[] args)
+        static void Main()
         {
-            string input;
-
             Console.WriteLine("What's your name?");
-            input = Console.ReadLine();
-
-            Console.WriteLine("Hello, " + input + "!");
+            str input = Console.ReadLine();
+            Console.WriteLine($"Hello, {input}!");
             Console.ReadLine();
         }
     }

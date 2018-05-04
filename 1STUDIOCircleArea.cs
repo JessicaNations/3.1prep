@@ -1,6 +1,6 @@
-using System;                                              
-using System.Collections.Generic;                              
-using System.Text;                                                                
+using System;
+using System.Collections.Generic;
+using System.Text;
 namespace CirleArea
 {
     class Program
@@ -15,8 +15,8 @@ namespace CirleArea
             input = Console.ReadLine();
             radius = Convert.ToInt32.(Console.ReadLine());
 
-            area = (3.14) * radius * radius;
-            Console.WriteLine("The area of a circle with radius " + radius + " is: " + area);
+            area = Math.PI * radius * radius;
+            Console.WriteLine($"The area of a circle with radius {radius} is: {area}");
             Console.ReadLine();
         }
     }
